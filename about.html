@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="eSports.css">
+  <link rel="icon" href="png/logo_ea.png">
+  <title>About Us</title>
+</head>
+
+<body>
+  <!--Pre-loader-->
+  <div class="preloader">
+    <div class="loader">
+      <div class="loader__bar"></div>
+      <div class="loader__bar"></div>
+      <div class="loader__bar"></div>
+      <div class="loader__bar"></div>
+    </div>
+  </div>
+  <!-- Website content goes here -->
+  <header>
+    <nav class="homebar">
+      <div class="home4">
+        <a href="eSports.html">
+          <h2>EA</h2>
+        </a>
+      </div>
+      <div class="nav8">
+        <ul class="home">
+          <li><a id="page45" class="page" href="eSports.html">HOME</a></li>
+          <li><a class="page" href="tournaments.html">TOURNAMENTS</a></li>
+          <li><a class="page" href="teams.html">TEAMS</a></li>
+          <li><a class="page" href="news.html">NEWS</a></li>
+          <li><a class="page" id="highlight" href="about.html">ABOUT</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav class="gamebar">
+      <ul>
+        <li><a href="#">PUBG</a></li>
+        <li><a href="#">Clash</a></li>
+        <li><a href="#">FIFA</a></li>
+        <li><a href="#">FreeFire</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="full">
+    <div class="head">
+      <div class="anime">
+        <h1 class="about">About Us</h1>
+      </div>
+      <div class="h2" id="xb1">
+        <h2>Making esports market data more accessible</h2>
+        <img src="png/jumptron.svg" alt="svg-stats">
+      </div>
+    </div>
+    <div class="h2" id="xb">
+      <img data-delay="0.5s" src="png/xbox.jpg" alt="xbox">
+      <h2 class="hd2 ach" data-delay="0.5s">Know Your Game</h2>
+    </div>
+  </section>
+  <!--contact form-->
+  <section id="contact">
+    <div id="con">
+      <h1 class="section-header">Contact Us</h1>
+    </div>
+
+
+    <!-- Left contact page -->
+    <div class="contact-wrapper">
+      <div class="container">
+        <form id="contact-form">
+          <label for="name">Name:</label><br>
+          <div class="intb">
+            <input type="text" id="name" name="name"><br>
+          </div>
+          <span id="name-error" class="error"></span>
+          <br>
+          <label for="email">Email:</label><br>
+          <div class="intb">
+            <input type="email" id="email" name="email"><br>
+          </div>
+          <span id="email-error" class="error"></span>
+          <br>
+          <label for="message">Message:</label><br>
+          <div class="msg1">
+            <textarea id="message" name="message"></textarea>
+          </div>
+          <br>
+          <span id="message-error" class="error"></span>
+          <br><br>
+          <input class="send-button" type="submit" value="Submit" onclick="return validateForm()">
+        </form>
+      </div>
+    </div>
+
+  </section>
+  <!--Footer-->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col">
+          <h4>company</h4>
+          <ul>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">our services</a></li>
+            <li><a href="#">privacy policy</a></li>
+            <li><a href="#">affiliate program</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>get help</h4>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Copy right</a></li>
+            <li><a href="#">India</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>follow us</h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"><img src="png/face.webp" alt=""></i></a>
+            <a href="#"><i class="fab fa-twitter"><img src="png/insta.webp" alt=""></i></a>
+            <a href="#"><i class="fab fa-instagram"><img src="png/twitter.webp" alt=""></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"><img src="png/reddit.webp" alt=""></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="esports.js"></script>
+</body>
+
+</html>
