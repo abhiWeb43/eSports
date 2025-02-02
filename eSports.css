@@ -314,13 +314,13 @@ figure img {
   transition: 0.4s;
 }
 
-video {
+iframe {
   transform: translate(-50%, -50%);
   position: absolute;
-  top: 40%;
+  top: 45%;
   left: 897.5px;
-  width: 40.4%;
-  height: 61.1%;
+  width: 600px;
+  height: 360px;
 }
 
 table#codm {

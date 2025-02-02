@@ -30,6 +30,7 @@ function validateForm() {
 
   return isValid;
 }
+
 /*animation*/    
 const images = document.querySelectorAll('.hd2');
 observer = new IntersectionObserver((entries) => {
